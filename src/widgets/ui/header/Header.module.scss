@@ -1,0 +1,41 @@
+.header {
+  height: 80px;
+  margin: 0 auto;
+  border-bottom: .1px solid rgba(229, 231, 235, .2);
+}
+
+.nav__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.logo {
+  height: 25px;
+  width: 100px;
+}
+
+.nav__links {
+  display: flex;
+  gap: 30px;
+}
+
+.nav__button {
+  background: none;
+  color: #ffffff;
+  transition: all .2s ease-in-out;
+  width: 120px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #d35bf8;
+}
+
+.nav__button:hover {
+  background-color: #d35bf8;
+}
+

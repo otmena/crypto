@@ -1,0 +1,17 @@
+.button {
+ color: #ffffff;
+ transition: all .2s ease-in-out;
+ background: transparent;
+ padding: 10px 20px;
+ width: 190px;
+ height: 60px;
+ border: 1px solid #fb4955;
+}
+
+.button:hover {
+  background: #fb4955;
+}
+
+.button:focus {
+  background: #fb4955;
+}
